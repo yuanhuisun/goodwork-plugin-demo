@@ -1,0 +1,1 @@
+    <script src="{{ asset('/js/plugins/mail-preview/mail-preview.min.js') }}"></script>
