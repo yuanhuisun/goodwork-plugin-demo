@@ -1,0 +1,28 @@
+{
+    "name": "goodwork/mail-preview",
+    "description": "An demo plugin for Goodwork app",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nehal Hasnayeen",
+            "email": "searching.nehal@gmail.com"
+        }
+    ],
+    "require": {
+        "themsaid/laravel-mail-preview": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Goodwork\\MailPreview\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Goodwork\\MailPreview\\MailPreviewServiceProvider"
+            ]
+        }
+    }
+}
